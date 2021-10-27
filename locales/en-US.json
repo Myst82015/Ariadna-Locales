@@ -1,6 +1,6 @@
 {
     "====================================": "=================================",
-    "WORDS": "===Single words for general usage===",
+    "WORDS": "=== Single words for general usage ===",
     "======================================": "=================================",
 
     "WORD_GENERAL_INFORMATIONS" :"General Informations",
@@ -35,6 +35,9 @@
 
     "WORD_MILLISECONDS": "ms",
     "WORD_API_LATENCY": "API Latency",
+
+    "WORD_ORE_SINGULAR": "Ore",
+    "WORD_LOCATION": "Location",
 
 
     "===================================": "=================================",
@@ -85,7 +88,8 @@
     "LOOT_NO_SHIP": "This Ship doesn't exist.",
     "LOOT_NO_SHIP_TIP": "**Tip**: Replace spaces with -\n**Example**: Object NY18 -> object-ny18",
 
-
+    "ORE_NO_ORE": "This Ore does not exist.",
+    "ORE_NO_ORE_TIP": "**Tip**: Replace spaces with -\n**Example**: Crystal Shard -> crystal-shard",
 
     "BOTINFO_DESCRIPTION": "Small side project to keep track of the different ingame events of the game [Star Conflict](https://star-conflict.com/en).\n\n*Join the support server for suggestions / support.*",
 
