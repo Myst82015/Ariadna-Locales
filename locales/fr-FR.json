@@ -24,7 +24,7 @@
     "CONFIG_USER_TITLE": "Configuration utilisateur actuelle pour ",
     "CONFIG_GUILD_TITLE": "Configuration actuelle de la corporation pour ",
     "WORD_NONE": "None",
-    "WORD_GENERAL_CONFIGURATION": "configuration générale",
+    "WORD_GENERAL_CONFIGURATION": "Configuration générale",
     "WORD_PREFIX": "Préfixe",
     "WORD_NOTIFICATION_CHANNEL": "canal de notification",
     "WORD_NOTIFICATION_ROLE": "Rôle de notification ",
@@ -33,15 +33,53 @@
     "WORD_BRAWL": "Brawl",
     "WORD_PORTALS": "ligue",
 
+    "WORD_DAYS": "Days",
+    "WORD_HOURS": "Hours",
+    "WORD_MINUTES": "Minutes",
+    "WORD_SECONDS": "Seconds",
     "WORD_MILLISECONDS": "ms",
+
+    
+    "WORD_COMMAND": "Command",
+    "WORD_DESCRIPTION": "Description",
+    "WORD_USAGE": "Usage",
+    "WORD_ALIASES": "Aliases",
+    "WORD_COOLDOWN": "Cooldown",
+    "WORD_CATEGORY": "Category",
+
     "WORD_API_LATENCY": "latence de l'A.P.I. ",
 
     "WORD_ORE_SINGULAR": "minerai",
-    "WORD_LOCATION": "localisation",
+    "WORD_LOCATION": "Localisation",
+ 
+    "===============================": "=================================",
+    "EVENTS": "===Specific phrases for events===",
+    "==============================": "==================================",
+
+    "EVENTS_MESSAGECREATE_COOLDOWN": "Please wait for {{timeLeft}} more second(s) before reusing the `{{command}}` command.",
+    "EVENTS_MESSAGECREATE_REQUIRED_ARGS": "This command requires **arguments**.\n:white_small_square: Proper Usage: `{{prefix}}{{command}} {{usage}}`\n:white_small_square: For more informations please refer to `{{prefix}}help {{command}}`",
+    "EVENTS_MESSAGECREATE_GUILD_ONLY": "This command is unavailable via private message.\nPlease run this command within a server.",
+    "EVENTS_MESSAGECREATE_COMMAND_ERROR": " Whoops. Something went wrong. Try again in some minutes. If the error persists make sure to report it.",
+    
+    "=====================================": "=================================",
+    "COMMAND_DESCRIPTIONS": "===Command Descriptions===",
+    "========================================": "==================================",
+
+    "COMMAND_DESCRIPTIONS_CONFIG": "Shows the current guild configuration.",
+    "COMMAND_DESCRIPTIONS_CRAFT": "Returns the crafting resources for a ship.",
+    "COMMAND_DESCRIPTIONS_ORES": "Returns the locations for certain ores.",
+    "COMMAND_DESCRIPTIONS_PATTERNS": "Returns the patterns for the different events.",
+    "COMMAND_DESCRIPTIONS_SHIPLOOT": "Returns the loot for a ship.",
+    "COMMAND_DESCRIPTIONS_STATS": "Returns the statistics for a player.",
+    "COMMAND_DESCRIPTIONS_BOTINFO": "Returns the botinfo.",
+    "COMMAND_DESCRIPTIONS_HELP": "Returns the help.",
+    "COMMAND_DESCRIPTIONS_INVITE": "Returns a link to invite the bot.",
+    "COMMAND_DESCRIPTIONS_PING": "PONG!",
+
 
 
     "===================================": "=================================",
-    "COMMANDS": "===Specific phrases for commands===",
+    "COMMANDS": "===Specific phrases for Commands===",
     "=======================================": "==================================",
 
     "CONFIG_CONFIGURATION_HELP": "Mettre à jour la configuration avec  **`*config <index> [ value | \"--reset\" ]`**",
@@ -95,9 +133,9 @@
 
 
 
-    "CRAFT_HELP_DESCRIPTION": "retourne les ressources de craft pour un vaisseau.",
+    "CRAFT_HELP_DESCRIPTION": "Retourne les ressources de craft pour un vaisseau.",
     "CRAFT_NO_SHIP": "Ce vaisseau n'existe pas ou n'est pas craftable.",
-    "CRAFT_EMBED_TITLE": "craft un vaisseau",
+    "CRAFT_EMBED_TITLE": "Craft un vaisseau.",
     "CRAFT_EMBED_TIP": "*Cliquez sur l'image pour l’agrandir.*",
     "CRAFT_EMBED_LINK_DESCRIPTION": "En savoir plus sur le vaisseau.",
 
@@ -106,6 +144,12 @@
     "INVITE_INVITE_BOT": "Inviter le bot",
     "INVITE_SUPPORT_SERVER": "Serveur de support",
  
+    "HELP_OFFICIAL_PROJECT_TITLE": "The Ariadna Project",
+    "HELP_OFFICAL_DESCRIPTION": "This is an official bot for the Game [Star Conflict](https://star-conflict.com/en).\nIt will send a notification via direct messages if certain ingame events start.\nUse `{{prefix}}help <command>` for more info about a specific command.",
+    
+    "HELP_NO_DESCRIPTION": "No Description provided.",
+    "HELP_NO_COMMAND_FOUND": "I could not find the command: {{command}}**\n\nHelp Command Usage: \n`{{prefix}}help` -  lists all commands\n`{{prefix}}help [command]` - provides help for a command.",
+
     "HELP_EMBED_COMMAND_NAME" : "Commande",
     "HELP_EMBED_DESCRIPTION": "Description",
     "HELP_EMBED_NO_DESCRIPTION": "Aucune description fournie.",
