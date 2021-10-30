@@ -35,17 +35,17 @@
 
     "WORD_DAYS": "Days",
     "WORD_HOURS": "Hours",
-    "WORD_MINUTES": "Minutes",
-    "WORD_SECONDS": "Seconds",
+    "WORD_MINUTES": "minutes",
+    "WORD_SECONDS": "seconde",
     "WORD_MILLISECONDS": "ms",
 
     
-    "WORD_COMMAND": "Command",
+    "WORD_COMMAND": "Commande",
     "WORD_DESCRIPTION": "Description",
-    "WORD_USAGE": "Usage",
+    "WORD_USAGE": "Utilisation",
     "WORD_ALIASES": "Aliases",
-    "WORD_COOLDOWN": "Cooldown",
-    "WORD_CATEGORY": "Category",
+    "WORD_COOLDOWN": "Rechargement",
+    "WORD_CATEGORY": "catégorie",
 
     "WORD_API_LATENCY": "latence de l'A.P.I. ",
 
@@ -56,24 +56,24 @@
     "EVENTS": "===Specific phrases for events===",
     "==============================": "==================================",
 
-    "EVENTS_MESSAGECREATE_COOLDOWN": "Please wait for {{timeLeft}} more second(s) before reusing the `{{command}}` command.",
-    "EVENTS_MESSAGECREATE_REQUIRED_ARGS": "This command requires **arguments**.\n:white_small_square: Proper Usage: `{{prefix}}{{command}} {{usage}}`\n:white_small_square: For more informations please refer to `{{prefix}}help {{command}}`",
-    "EVENTS_MESSAGECREATE_GUILD_ONLY": "This command is unavailable via private message.\nPlease run this command within a server.",
-    "EVENTS_MESSAGECREATE_COMMAND_ERROR": " Whoops. Something went wrong. Try again in some minutes. If the error persists make sure to report it.",
+    "EVENTS_MESSAGECREATE_COOLDOWN": "Veuillez attendre encore {{timeLeft}} seconde(s) avant de réutiliser la commande `{{command}}` ",
+    "EVENTS_MESSAGECREATE_REQUIRED_ARGS": "Cette commande requiert **arguments**.\n:white_small_square: Usage correct: `{{prefix}}{{command}} {{usage}}`\n:white_small_square: Pour plus d'information, référez-vous à `{{prefix}}help {{command}}`",
+    "EVENTS_MESSAGECREATE_GUILD_ONLY": "Cette commande est indisponible en message privé.\nVeuillez lancer cette commande sur un serveur.",
+    "EVENTS_MESSAGECREATE_COMMAND_ERROR": " Whoops. Quelque chose s'est mal passé. Réessayez dans quelques minutes. Si l'erreur persiste, contactez le support.",
     
     "=====================================": "=================================",
     "COMMAND_DESCRIPTIONS": "===Command Descriptions===",
     "========================================": "==================================",
 
-    "COMMAND_DESCRIPTIONS_CONFIG": "Shows the current guild configuration.",
-    "COMMAND_DESCRIPTIONS_CRAFT": "Returns the crafting resources for a ship.",
-    "COMMAND_DESCRIPTIONS_ORES": "Returns the locations for certain ores.",
-    "COMMAND_DESCRIPTIONS_PATTERNS": "Returns the patterns for the different events.",
-    "COMMAND_DESCRIPTIONS_SHIPLOOT": "Returns the loot for a ship.",
-    "COMMAND_DESCRIPTIONS_STATS": "Returns the statistics for a player.",
-    "COMMAND_DESCRIPTIONS_BOTINFO": "Returns the botinfo.",
-    "COMMAND_DESCRIPTIONS_HELP": "Returns the help.",
-    "COMMAND_DESCRIPTIONS_INVITE": "Returns a link to invite the bot.",
+    "COMMAND_DESCRIPTIONS_CONFIG": "Montre la configuration actuel de la guilde.",
+    "COMMAND_DESCRIPTIONS_CRAFT": "Retourne les ressources de craft d'un vaisseau.",
+    "COMMAND_DESCRIPTIONS_ORES": "Retourne la localisation des ressources.",
+    "COMMAND_DESCRIPTIONS_PATTERNS": "Retourne le calendrier des évenements.",
+    "COMMAND_DESCRIPTIONS_SHIPLOOT": "Retourne le butin d'un vaisseau.",
+    "COMMAND_DESCRIPTIONS_STATS": "Retourne les statistiques du joueur.",
+    "COMMAND_DESCRIPTIONS_BOTINFO": "Retourne les informations du bot.",
+    "COMMAND_DESCRIPTIONS_HELP": "Affiche l'aide.",
+    "COMMAND_DESCRIPTIONS_INVITE": "Retourne le lien d'invitation du bot.",
     "COMMAND_DESCRIPTIONS_PING": "PONG!",
 
 
@@ -139,7 +139,7 @@
     "CRAFT_EMBED_TIP": "*Cliquez sur l'image pour l’agrandir.*",
     "CRAFT_EMBED_LINK_DESCRIPTION": "En savoir plus sur le vaisseau.",
 
-    "PING_FIRST_MESSAGE": "en travail...",
+    "PING_FIRST_MESSAGE": "En travail...",
 
     "INVITE_INVITE_BOT": "Inviter le bot",
     "INVITE_SUPPORT_SERVER": "Serveur de support",
