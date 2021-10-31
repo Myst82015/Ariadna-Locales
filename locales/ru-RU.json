@@ -33,14 +33,12 @@
     "WORD_BRAWL": "Потасовка",
     "WORD_PORTALS": "Порталы",
 
-
     "WORD_DAYS": "Days",
     "WORD_HOURS": "Hours",
     "WORD_MINUTES": "Minutes",
     "WORD_SECONDS": "Seconds",
     "WORD_MILLISECONDS": "мс",
 
-  
     "WORD_COMMAND": "Команда",
     "WORD_DESCRIPTION": "Описание",
     "WORD_USAGE": "Использование",
@@ -129,10 +127,7 @@
     "ORE_NO_ORE": "This Ore does not exist.",
     "ORE_NO_ORE_TIP": "**Tip**: Replace spaces with -\n**Example**: Crystal Shard -> crystal-shard",
 
-
     "BOTINFO_DESCRIPTION": "Небольшой побочный проект для отслеживания различных внутриигровых событий [Star Conflict](https://star-conflict.com/en).\n\n*Join the support server for suggestions / support.*",
-
-
 
     "CRAFT_HELP_DESCRIPTION": "Возвращает крафтовые ресурсы для корабля",
     "CRAFT_NO_SHIP": "Этот корабль не существет или его нельзя построить.",
@@ -144,6 +139,13 @@
 
     "INVITE_INVITE_BOT": "Пригласить бота",
     "INVITE_SUPPORT_SERVER": "Поддержать сервер",
+
+    "HELP_OFFICIAL_PROJECT_TITLE": "The Ariadna Project",
+    "HELP_OFFICAL_DESCRIPTION": "This is an official bot for the Game [Star Conflict](https://star-conflict.com/en).\nIt will send a notification via direct messages if certain ingame events start.\nUse `{{prefix}}help <command>` for more info about a specific command.",
+    
+    "HELP_NO_DESCRIPTION": "No Description provided.",
+    "HELP_NO_COMMAND_FOUND": "I could not find the command: {{command}}**\n\nHelp Command Usage: \n`{{prefix}}help` -  lists all commands\n`{{prefix}}help [command]` - provides help for a command.",
+
  
     "HELP_EMBED_COMMAND_NAME" : "Команда",
     "HELP_EMBED_DESCRIPTION": "Описание",
@@ -164,8 +166,8 @@
 
     "PATTERNS_SPECOPS_TITLE": "PVE: Special Operations",
     "PATTERNS_SPECOPS_DESCRIPTION": "Elite UMC mercenary squad welcomes you!\nWe're blasting Aliens across all the human sectors! We're trusted with the most dangerous, almost impossible missions. And the most profitable of course.\n**You can take part in special operations for a limited time:**\n• `00:00-01:00 GMT`\n• `02:00-03:00 GMT`\n• `04:00-05:00 GMT`\n• `06:00-07:00 GMT`\n• `08:00-09:00 GMT`\n• `10:00-11:00 GMT`\n• `12:00-13:00 GMT`\n• `14:00-15:00 GMT`\n• `16:00-17:00 GMT`\n• `18:00-19:00 GMT`\n• `20:00-21:00 GMT`\n• `22:00-23:00 GMT`\n\n**Special Operation patterns change every day:**\n• `The Alien Destroyer` — Tuesday, Saturday, Sunday\n• `The Defiler` — Wednesday, Friday, Sunday\n• `Return to Eden` — Monday, Thursday, Sunday\nOn Sundays, the Special Operation will alternate.\n\nFor more informations read [this wiki entry](https://wiki.star-conflict.com/index.php?title=SPECIAL_OPERATIONS).",
+    
     "PATTERNS_INVALID_SEARCH": "No value specified, possible options are: brawl, portals, specialOperation and conquest.",
-
 
     "=============================": "=================================",
     "NOTIFICATIONS": "===Specific phrases for notification messages===",
@@ -182,6 +184,5 @@
 
     "NOTIFICATION_SPECOPS_TITLE": "Special Operations are starting.\nTime Zone: `{{timeStamp}}`",
     "NOTIFICATION_SPECOPS_DESCRIPTION": "Elite UMC mercenary squad welcomes you!\nWe're blasting Aliens across all the human sectors! We're trusted with the most dangerous, almost impossible missions. And the most profitable of course.\nFor more informations run the patterns command or read [this wiki entry](https://wiki.star-conflict.com/index.php?title=SPECIAL_OPERATIONS)."
-
 
 }
