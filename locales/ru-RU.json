@@ -48,33 +48,33 @@
 
     "WORD_API_LATENCY": "API задержка",
 
-    "WORD_ORE_SINGULAR": "Ore",
-    "WORD_LOCATION": "Location",
-    "WORD_MISSION": "Mission",
+    "WORD_ORE_SINGULAR": "Руда",
+    "WORD_LOCATION": "Локация",
+    "WORD_MISSION": "Миссия",
 
     "===============================": "=================================",
-    "EVENTS": "===Specific phrases for events===",
+    "EVENTS": "===Специальные фразы для события===",
     "==============================": "==================================",
 
-    "EVENTS_MESSAGECREATE_COOLDOWN": "Please wait for {{timeLeft}} more second(s) before reusing the `{{command}}` command.",
-    "EVENTS_MESSAGECREATE_REQUIRED_ARGS": "This command requires **arguments**.\n:white_small_square: Proper Usage: `{{prefix}}{{command}} {{usage}}`\n:white_small_square: For more informations please refer to `{{prefix}}help {{command}}`",
-    "EVENTS_MESSAGECREATE_GUILD_ONLY": "This command is unavailable via private message.\nPlease run this command within a server.",
-    "EVENTS_MESSAGECREATE_COMMAND_ERROR": " Whoops. Something went wrong. Try again in some minutes. If the error persists make sure to report it.",
+    "EVENTS_MESSAGECREATE_COOLDOWN": "Пожалуйста, подождите {{timeLeft}} секунд прежде чем снова использовать `{{command}}` команду.",
+    "EVENTS_MESSAGECREATE_REQUIRED_ARGS": "Эта команда требует **arguments**.\n:white_small_square: Правильное использование: `{{prefix}}{{command}} {{usage}}`\n:white_small_square: Для большей информации, пожалуйста, обратитесь к `{{prefix}}help {{command}}`",
+    "EVENTS_MESSAGECREATE_GUILD_ONLY": "Эта команда недоступна в личных сообщениях.\nПожалуйста, используйте команду на сервере.",
+    "EVENTS_MESSAGECREATE_COMMAND_ERROR": " Упс. Что-то пошло не так. Попробуйте снова через некоторое время. Если ошибка остаётся, пожалуйста, сообщите о ней.",
     
     "=====================================": "=================================",
-    "COMMAND_DESCRIPTIONS": "===Command Descriptions===",
+    "COMMAND_DESCRIPTIONS": "===Описание команд===",
     "========================================": "==================================",
 
-    "COMMAND_DESCRIPTIONS_CONFIG": "Shows the current guild configuration.",
-    "COMMAND_DESCRIPTIONS_CRAFT": "Returns the crafting resources for a ship.",
-    "COMMAND_DESCRIPTIONS_ORES": "Returns the locations for certain ores.",
-    "COMMAND_DESCRIPTIONS_PATTERNS": "Returns the patterns for the different events.",
-    "COMMAND_DESCRIPTIONS_SHIPLOOT": "Returns the loot for a ship.",
-    "COMMAND_DESCRIPTIONS_STATS": "Returns the statistics for a player.",
-    "COMMAND_DESCRIPTIONS_BOTINFO": "Returns the botinfo.",
-    "COMMAND_DESCRIPTIONS_HELP": "Returns the help.",
-    "COMMAND_DESCRIPTIONS_INVITE": "Returns a link to invite the bot.",
-    "COMMAND_DESCRIPTIONS_PING": "PONG!",
+    "COMMAND_DESCRIPTIONS_CONFIG": "Показывает текущую конфигурацию гильдии.",
+    "COMMAND_DESCRIPTIONS_CRAFT": "Возвращает ресурсы для крафта за корабль.",
+    "COMMAND_DESCRIPTIONS_ORES": "Возвращает расположение определённых руд.",
+    "COMMAND_DESCRIPTIONS_PATTERNS": "Возвращает шаблон для разных событий.",
+    "COMMAND_DESCRIPTIONS_SHIPLOOT": "Возвращает лут для корабля.",
+    "COMMAND_DESCRIPTIONS_STATS": "Возвращает статистику игрока.",
+    "COMMAND_DESCRIPTIONS_BOTINFO": "Возвращает информацию бота.",
+    "COMMAND_DESCRIPTIONS_HELP": "Возвращает помощь.",
+    "COMMAND_DESCRIPTIONS_INVITE": "Возвращает ссылку для приглашения бота.",
+    "COMMAND_DESCRIPTIONS_PING": "ПОНГ!",
 
     "===================================": "=================================",
     "COMMANDS": "===Специальные фразы для команд===",
@@ -140,11 +140,11 @@
     "INVITE_INVITE_BOT": "Пригласить бота",
     "INVITE_SUPPORT_SERVER": "Поддержать сервер",
 
-    "HELP_OFFICIAL_PROJECT_TITLE": "The Ariadna Project",
-    "HELP_OFFICAL_DESCRIPTION": "This is an official bot for the Game [Star Conflict](https://star-conflict.com/en).\nIt will send a notification via direct messages if certain ingame events start.\nUse `{{prefix}}help <command>` for more info about a specific command.",
+    "HELP_OFFICIAL_PROJECT_TITLE": "Проект \"Ариадна",
+    "HELP_OFFICAL_DESCRIPTION": "Это официальный бот для игры [Star Conflict](https://star-conflict.com/en).\n Если начнётся какое-либо внутриигровое событие, он отправит оповещение через личные сообщения.\nИспользуйте `{{prefix}}help <command>` для получения большей информации по каждой команде.",
     
-    "HELP_NO_DESCRIPTION": "No Description provided.",
-    "HELP_NO_COMMAND_FOUND": "I could not find the command: {{command}}**\n\nHelp Command Usage: \n`{{prefix}}help` -  lists all commands\n`{{prefix}}help [command]` - provides help for a command.",
+    "HELP_NO_DESCRIPTION": "Нет описания.",
+    "HELP_NO_COMMAND_FOUND": "Я не могу найти команду: {{command}}**\n\nHelp Использование команды: \n`{{prefix}}help` -  показывает все команды\n`{{prefix}}help [command]` - обеспечивает помощь с командами",
 
  
     "HELP_EMBED_COMMAND_NAME" : "Команда",
@@ -158,31 +158,31 @@
     "HELP_EMBED_WORD_CATEGORY": "Категория",
     "HELP_EMBED_NO_CATEGORY": "Общее",
 
-    "PATTERNS_CONQUEST_TITLE": "PVP: Sector Conquest",
-    "PATTERNS_CONQUEST_DESCRIPTION": "**Sector Conquest** represents battles between corporations on the sector map. For conquering and holding a location the corporation will earn an income.\nFor more informations read [this wiki entry](https://wiki.star-conflict.com/index.php?title=Sector_Conquest).",
+    "PATTERNS_CONQUEST_TITLE": "PVP: Битва за сектор",
+    "PATTERNS_CONQUEST_DESCRIPTION": "**Битва за сектор** является битвой между корпорациями на карте сектора. При захвате и удержании локации корпорация будет получать с неё доход.\nДля большей информации прочтите [this wiki entry](https://wiki.star-conflict.com/index.php?title=Sector_Conquest).",
 
-    "PATTERNS_BRAWL_TITLE": "PVP: Brawl",
-    "PATTERNS_BRAWL_DESCRIPTION": "All mercenaries can test their forces in special modes — brawls.\nEach brawl has different special conditions and rules.\n**You can take part in brawls for a limited time:**\n• `01:00-03:00 GMT`\n• `10:00-12:00 GMT`\n• `14:00-16:00 GMT`\n• `18:00-19:00 GMT`\n• `20:00-22:00 GMT`\n**Brawl patterns change every day:**\n• Beetle in the anthill — Monday\n• Fight club — Tuesday\n• Last man standing — Wednesday\n• Fight club — Thursday\n• Combat recon — available on Fridays\n• Beacon Capture — available on Saturdays\nOn Sundays, the brawl modes will alternate.\n\nFor more informations read [this wiki entry](https://wiki.star-conflict.com/index.php?title=Brawl#Brawls).",
+    "PATTERNS_BRAWL_TITLE": "PVP: Потасовка",
+    "PATTERNS_BRAWL_DESCRIPTION": "Все наёмники могут показать свои способности в специальных режимах - потасовках.\nКаждая потасовка имеет собственные правила.\n**Вы можете поучаствовать в потасовках только в определённое время:**\n• `01:00-03:00 GMT`\n• `10:00-12:00 GMT`\n• `14:00-16:00 GMT`\n• `18:00-19:00 GMT`\n• `20:00-22:00 GMT`\n**Режимы потасовок меняются каждый день:**\n• Жук в муравейнике — Понедельник\n• Бойцовский клуб — Вторник\n• Последний герой — Среда\n• Бойцовский клуб — Четверг\n• Разведка боем — по пятницам\n• Захват маяка — по субботам\nПо воскресеньям проводятся всегда разные потасовки.\n\nДля большей информации прочтите [this wiki entry](https://wiki.star-conflict.com/index.php?title=Brawl#Brawls).",
 
-    "PATTERNS_SPECOPS_TITLE": "PVE: Special Operations",
-    "PATTERNS_SPECOPS_DESCRIPTION": "Elite UMC mercenary squad welcomes you!\nWe're blasting Aliens across all the human sectors! We're trusted with the most dangerous, almost impossible missions. And the most profitable of course.\n**You can take part in special operations for a limited time:**\n• `00:00-01:00 GMT`\n• `02:00-03:00 GMT`\n• `04:00-05:00 GMT`\n• `06:00-07:00 GMT`\n• `08:00-09:00 GMT`\n• `10:00-11:00 GMT`\n• `12:00-13:00 GMT`\n• `14:00-15:00 GMT`\n• `16:00-17:00 GMT`\n• `18:00-19:00 GMT`\n• `20:00-21:00 GMT`\n• `22:00-23:00 GMT`\n\n**Special Operation patterns change every day:**\n• `The Alien Destroyer` — Tuesday, Saturday, Sunday\n• `The Defiler` — Wednesday, Friday, Sunday\n• `Return to Eden` — Monday, Thursday, Sunday\nOn Sundays, the Special Operation will alternate.\n\nFor more informations read [this wiki entry](https://wiki.star-conflict.com/index.php?title=SPECIAL_OPERATIONS).",
+    "PATTERNS_SPECOPS_TITLE": "PVE: Спецоперации",
+    "PATTERNS_SPECOPS_DESCRIPTION": "Элитный отряд ЕЦН приветствует тебя!\nМы истребляем пришельцев во всех секторах! Нам доверяют самые опасные, практически невозможные миссии. И самые прибыльные, конечно.\n**Вы можете поучаствовать в спецоперациях только в определённое время:**\n• `00:00-01:00 GMT`\n• `02:00-03:00 GMT`\n• `04:00-05:00 GMT`\n• `06:00-07:00 GMT`\n• `08:00-09:00 GMT`\n• `10:00-11:00 GMT`\n• `12:00-13:00 GMT`\n• `14:00-15:00 GMT`\n• `16:00-17:00 GMT`\n• `18:00-19:00 GMT`\n• `20:00-21:00 GMT`\n• `22:00-23:00 GMT`\n\n**Спецоперации меняются каждый день:**\n• `Разрушитель` — Вторник, Субботк, Воскресенье\n• `Осквернитель` — Суббота, Пятница, Воскресенье\n• `Возвращение в Эдем` — Понедельник, Четверг, Воскресенье\nПо воскресеньям спецоперации меняются.\n\nДля большей информации прочтите [this wiki entry](https://wiki.star-conflict.com/index.php?title=SPECIAL_OPERATIONS).",
     
-    "PATTERNS_INVALID_SEARCH": "No value specified, possible options are: brawl, portals, specialOperation and conquest.",
+    "PATTERNS_INVALID_SEARCH": "Нет точного варианта, возможные опции: потасовка, порталы, спецоперация и битва за сектор.",
 
     "=============================": "=================================",
-    "NOTIFICATIONS": "===Specific phrases for notification messages===",
+    "NOTIFICATIONS": "===Особые фразы для уведомлений===",
     "==================================": "==================================",
 
-    "NOTIFICATION_BRAWL_TITLE": "Brawls are starting.\nTime Zone: `{{timeStamp}}`",
-    "NOTIFICATION_BRAWL_DESCRIPTION": "All mercenaries can test their forces in special modes — brawls.\nEach br\nFor more informations run the patterns command or read [this wiki entry](https://wiki.star-conflict.com/index.php?title=Brawl#Brawls).",
+    "NOTIFICATION_BRAWL_TITLE": "Потасовка началась.\nВремя: `{{timeStamp}}`",
+    "NOTIFICATION_BRAWL_DESCRIPTION": "Все наёмники могут показать свои способности в специальных режимах — потасовках.\nКаждый br\nДля получения большей информации введите команду или прочтите [this wiki entry](https://wiki.star-conflict.com/index.php?title=Brawl#Brawls).",
 
-    "NOTIFICATION_CONQUEST_TITLE": "Sector Conquest is starting.\nTime Zone: `{{timeStamp}}`",
-    "NOTIFICATION_CONQUEST_DESCRIPTION": "**Sector Conquest** represents battles between corporations on the sector map.\nFor conquering and holding a location the corporation will earn an income.\nFor more informations run the patterns command or read [this wiki entry](https://wiki.star-conflict.com/index.php?title=Sector_Conquest).",
+    "NOTIFICATION_CONQUEST_TITLE": "Битва за сектор началась.\nВремя: `{{timeStamp}}`",
+    "NOTIFICATION_CONQUEST_DESCRIPTION": "**Битва за сектор** является битвой между корпорациями на карте сектора.\nПри захвате и удержании локации корпорация будет получать с неё доход.\nДля получения большей информации введите команду или прочтите [this wiki entry](https://wiki.star-conflict.com/index.php?title=Sector_Conquest).",
 
-    "NOTIFICATION_PORTALS_TITLE": "Portals are opening.\nTime Zone: `{{timeStamp}}`",
-    "NOTIFICATION_PORTALS_DESCRIPTION": "**Sector Conquest** represents battles between corporations on the sector map.\nFor conquering and holding a location the corporation will earn an income.\nFor more informations run the patterns command or read [this wiki entry](https://wiki.star-conflict.com/index.php?title=Sector_Conquest).",
+    "NOTIFICATION_PORTALS_TITLE": "Порталы открыты.\nВремя: `{{timeStamp}}`",
+    "NOTIFICATION_PORTALS_DESCRIPTION": "**Битва за сектор** является битвой между корпорациями на карте сектора.\nПри захвате и удержании локации корпорация будет получать с неё доход.\nДля получения большей информации введите команду или прочтите [this wiki entry](https://wiki.star-conflict.com/index.php?title=Sector_Conquest).",
 
-    "NOTIFICATION_SPECOPS_TITLE": "Special Operations are starting.\nTime Zone: `{{timeStamp}}`",
-    "NOTIFICATION_SPECOPS_DESCRIPTION": "Elite UMC mercenary squad welcomes you!\nWe're blasting Aliens across all the human sectors! We're trusted with the most dangerous, almost impossible missions. And the most profitable of course.\nFor more informations run the patterns command or read [this wiki entry](https://wiki.star-conflict.com/index.php?title=SPECIAL_OPERATIONS)."
+    "NOTIFICATION_SPECOPS_TITLE": "Спецоперация началась.\nВремя: `{{timeStamp}}`",
+    "NOTIFICATION_SPECOPS_DESCRIPTION": "Элитный отряд ЕЦН приветствует тебя!\nМы истребляем пришельцев во всех секторах! Нам доверяют самые опасные, практически невозможные миссии. И самые прибыльные, конечно.\nДля получения большей информации введите команду или прочтите [this wiki entry](https://wiki.star-conflict.com/index.php?title=SPECIAL_OPERATIONS)."
 
 }
